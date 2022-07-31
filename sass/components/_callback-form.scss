@@ -180,7 +180,6 @@
   background-origin: border-box;
 }
 
-// Текст рядом с чекбоксом
 
 .policy__text {
   @media screen and (max-width: 1199px) {
@@ -188,18 +187,17 @@
   }
 }
 
-// Ссылка в тексте рядом с чекбоксом
+
 .policy__link {
   color: $accent-color;
 }
 
-// Обёртка для кнопки
+
 
 .btn-block {
   text-align: center;
 }
 
-// Кнопка для отправки формы
 
 .callback__btn {
   padding: 10px 55px;
