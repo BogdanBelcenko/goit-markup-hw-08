@@ -1,0 +1,31 @@
+
+.development-list{ 
+    margin:50px 215px 94px;
+    list-style-type: none;
+    list-style-type: none;
+    column-count:3;
+    align-content: center;
+    margin:0 auto;
+    display: block;
+  }
+    .development-item {
+      width: 370px;
+      height: 294px;
+      margin-right: 30px;
+      position: relative;
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  .development-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 0px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(47,48,58,.8);
+  }

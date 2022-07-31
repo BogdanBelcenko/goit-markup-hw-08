@@ -1,0 +1,128 @@
+.our-team {
+    background-color: #f5f4fa;
+  }
+  .section-title{
+    margin-bottom: 50px;
+    color: #212121;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    list-style-type: none;
+    } 
+    .team-memders {
+      display: flex;
+
+      .team-memders-item {
+        list-style: none;
+        text-align: center;
+      
+        background-color: var(--background-main-color);
+      
+        width: calc((100% - 90px) / 4);
+      
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+          0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+      }
+
+      &-item {
+        list-style: none;
+        text-align: center;
+      
+        background-color: var(--background-main-color);
+      
+        width: calc((100% - 90px) / 4);
+      
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+          0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+      }
+      
+      &-item:not(:first-child) {
+        margin-left: 30px;
+      }
+      
+      &-item-footer {
+        padding: 30px 0;
+      }
+      
+    }
+    .team-member-name {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+    
+      margin-bottom: 10px;
+    }
+  
+  .team-member-profession {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-text-color);
+  
+    margin-bottom: 16px;
+  }
+  
+  .team-member-social-list {
+    display: flex;
+    justify-content: center;
+  
+    list-style: none;
+  }
+  
+  .social-network {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+    &-link {
+      display: inline-flex;
+      padding: 12px;
+      border-radius: inherit;
+    }
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  }
+  &-link:hover,
+  &-link:focus{
+    fill: var(--white-color);
+    transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  }
+
+  &:hover .icon-social-network,
+  &:focus .icon-social-network {
+    fill: var(--white-color);
+    transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  }
+  }
+  
+  .icon-social-network {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+
+    &:hover{
+      fill: var(--white-color) !important;
+      transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    }
+
+  .social-network:hover &,
+  .social-network:focus & {
+    fill: var(--white-color);
+    transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  }
+  }
+  

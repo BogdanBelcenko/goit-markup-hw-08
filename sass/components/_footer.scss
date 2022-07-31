@@ -1,0 +1,128 @@
+.footer{
+    padding: 60px;
+    background-color:#2F303A;
+    align-content: center;
+    
+  }
+  .footer-address{
+    padding: 60px auto 60px 215px;
+    display: flex;
+  }
+  .address__list{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    align-content: center;
+  }
+  .address {
+    color: #fff;
+    text-decoration: none;
+  }
+  .contact-details {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .logo-last{
+    color: #fff;
+  } 
+  .footer-info{
+    list-style-type: none;
+  }
+  .footer-social {
+    margin-left: 70px;
+  }
+  
+  .footer-social-title {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 12px;
+  }
+  
+  .footer-social-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .footer-social-network {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    & :focus {
+      background-color: var(--accent-color);
+      transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    }
+    
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+  
+  .footer-social-link {
+    display: inline-flex;
+    padding: 12px;
+    border-radius: inherit;
+  }
+  .icon-footer-social-newtork {
+    width: 20px;
+    height: 20px;
+    fill:var(--backgrount-main-color);
+    
+    &:hover{
+      fill: var(--white-color) ;
+      transition-timing-function:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    }
+  }
+  
+  .footer__field {
+    display: inline-block;
+    margin-left: auto;
+
+    &-box {
+      display: flex
+    }
+  }
+  
+  
+  
+  .footer__input {
+    width: 358px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(255,255,255,.6);
+    border: 1px solid rgba(255,255,255,.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+    
+  }
+  
+  .footer__input:focus {
+    border: 1px solid #2196f3;
+  }
+  
+  .footer__sub-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    color: #fff;
+  }

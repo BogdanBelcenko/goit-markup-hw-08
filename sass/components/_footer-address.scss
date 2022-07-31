@@ -1,0 +1,70 @@
+.address-block {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 65px;
+  }
+}
+
+
+
+.footer__logo {
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+  color: $primary-bg-color;
+}
+
+
+
+.adress {
+  font-style: normal;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.adress__map {
+  margin-top: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+
+
+
+.adress__list {
+  @extend %list;
+}
+
+
+
+.adress__item {
+    &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+
+
+.adress__link {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+
+  transition: color $transition-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
